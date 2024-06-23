@@ -1,6 +1,6 @@
 # clibuddy
 
-clibuddy is a command-line tool written in Golang that helps you interact with shell commands using a Language Model (LLM) provided by ollama. It is currently in its Alpha state.
+clibuddy is a command-line tool written in Golang that helps you to create complex shell commands by textual description or analyze complex shell commands using a Language Model (LLM) provided by ollama. It is currently in its Alpha state.
 
 ## Features
 
