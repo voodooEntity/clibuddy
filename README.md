@@ -1,4 +1,3 @@
-
 # clibuddy
 
 clibuddy is a command-line tool written in Golang that helps you interact with shell commands using a Language Model (LLM) provided by ollama. It is currently in its Alpha state.
@@ -150,6 +149,11 @@ Here are the top 10 most populous capital cities in the world, based on the late
 
 Please note that these numbers are estimates and may vary depending on the source and methodology used. Additionally, it's worth noting that some of these cities may be part of larger metropolitan areas or urban agglomerations, which can affect the population figures.
 ```
+
+### Known issues
+
+Due to the way Go executes the generated commands on the system, some commands might not work properly. I plan to update the execution method to eliminate these issues. For now, some commands may produce errors when executed through the tool, but they should still work if you copy and paste them directly into your shell and run them natively.
+
 
 ### Environment Information
 
