@@ -25,7 +25,7 @@ clibuddy operates entirely on your local machine, utilizing the ollama API to en
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/cli.git
-   cd cli
+   cd cli/cmd/client
    ```
 
 2. Build the executable:
