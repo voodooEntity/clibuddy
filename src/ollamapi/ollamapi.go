@@ -12,14 +12,12 @@ import (
 // OllamApi struct to hold API URL and model name
 type OllamApi struct {
 	ApiURL string
-	Model  string
 }
 
 // New function to create a new instance of OllamApi
-func New(apiURL, model string) *OllamApi {
+func New(apiURL string) *OllamApi {
 	return &OllamApi{
 		ApiURL: apiURL,
-		Model:  model,
 	}
 }
 
@@ -30,10 +28,10 @@ type RequestData struct {
 }
 
 // Ask method to send the request to the API and get a response
-func (o *OllamApi) Ask(message string) (string, error) {
+func (o *OllamApi) Ask(model string, message string) (string, error) {
 	// Create the data for the POST request
 	data := RequestData{
-		Model:  o.Model,
+		Model:  model,
 		Prompt: message,
 	}
 
