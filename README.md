@@ -17,7 +17,7 @@ clibuddy operates entirely on your local machine, utilizing the ollama API to en
 ### Prerequisites
 
 - Golang installed on your machine.
-- Local ollama API running.
+- Local [ollama](https://ollama.com/download) API running.
 - Models `codestral`, `codellama`, and `llama3` available locally.
 
 ### Setup
